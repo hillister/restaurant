@@ -58,3 +58,19 @@ button:hover {
     justify-self: start;
 }
 
+#tequila {
+    width: 800px;
+    height: auto;
+    margin: 20px;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    align-self: center ;
+}
