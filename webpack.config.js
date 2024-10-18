@@ -11,6 +11,7 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
+    static: ".dist",
     watchFiles: ["./src/template.html"],
   },
   plugins: [
@@ -23,6 +24,14 @@ module.exports = {
         {
             test: /\.css$/i,
             use: ["style-loader", "css-loader"],
+        },
+        {
+            test: /\.html$/i,
+            loader: "html-loader",
+        },
+        {
+          test: /\.(png|jpe?g|gif|svg)$/i,
+          loader: "file-loader",  
         },
     ],
   },

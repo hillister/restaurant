@@ -1,3 +1,60 @@
-body {
-    background-color: rebeccapurple;
-  }
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-rows: 4fr 1fr 3fr;
+}
+/*
+footer {
+    background-image: url(./assets/headerpattern.jpg);
+    height: 100px;
+}
+*/
+#logo {
+    height: 100px;
+    width: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.title {
+    justify-self: center;
+    align-self: center;
+    color: black;
+}
+nav {
+    grid-row-start: 3;
+    background-image: url(./assets/headerpattern.jpg);
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+button {
+    width: 90px;
+    align-self: center;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(61, 82, 121);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e7ca45;
+}
+
+#home{
+    justify-self: end;
+}
+
+#menu {
+    justify-self: center;
+}
+
+#about {
+    justify-self: start;
+}
+
