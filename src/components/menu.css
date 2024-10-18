@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menuPage {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    background-color: rgb(245, 243, 223);    ;
+    font-size: 25px;
+    padding-bottom: 70px;
+}
+
+#tacos {
+    width: 650px;
+    height: auto;
+    margin-top: 80px;
+    align-self: center;
+    justify-self: center;
+}
+
+#textMenu {
+    align-self: center;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-weight: 600;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    row-gap: 10px;
+}
+
+h6 {
+    color: #e04646;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#p {
+    font-size: 14px;    
+    font-style: italic;
+
+}
+
+h4 {
+    font-size: 20px;
+}
+

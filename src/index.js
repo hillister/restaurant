@@ -3,6 +3,8 @@ import Home from "./components/home.js";
 import About from "./components/about.js";
 import Menu from "./components/Menu.js";
 import "./components/home.css";
+import "./components/menu.css";
+import "./components/about.css";
 
 class Display {
     constructor(){

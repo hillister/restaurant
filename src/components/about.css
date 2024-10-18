@@ -1,12 +1,15 @@
-#homePage {
+* {
+    margin: 0;
+    padding: 0;
+}
+#aboutPage {
     display: grid;
     grid-template-columns: 3fr 3fr;
     background-color: rgb(245, 243, 223);    ;
-    font-size: 25px;
     padding-bottom: 70px;
 }
 
-#tequila {
+#woman {
     width: 650px;
     height: auto;
     margin-top: 80px;
@@ -14,9 +17,24 @@
     justify-self: center;
 }
 
-#homeText {
+#aboutText {
     align-self: center;
     margin-left: 200px;
     margin-right: 100px;
-    font-weight: 600;
+    display: grid;
+    grid-template-rows: 3fr repeat(6, 1fr);
+    row-gap: 10px;
+}
+
+#headerB {
+    font-size: 25px;
+    margin-bottom: 15px
+}
+
+#headS {
+    font-size: 18px;
+}
+
+#aboutP {
+    font-size: 15px;
 }
