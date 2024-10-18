@@ -4,14 +4,15 @@
 }
 header {
     display: grid;
-    grid-template-rows: 4fr 1fr 3fr;
+    grid-template-rows: 3fr 1fr 3fr;
+    background-color: #dbcb81;
 }
-/*
+
 footer {
-    background-image: url(./assets/headerpattern.jpg);
+    background-color: #dbcb81;
     height: 100px;
 }
-*/
+
 #logo {
     height: 100px;
     width: auto;
@@ -22,12 +23,12 @@ footer {
 .title {
     justify-self: center;
     align-self: center;
-    color: black;
+    color: rgb(224, 70, 70);
 }
 nav {
     grid-row-start: 3;
-    background-image: url(./assets/headerpattern.jpg);
     display: grid;
+    background-color: rgb(0, 0, 0);
     grid-template-columns: 3fr 1fr 3fr;
 }
 
@@ -37,13 +38,15 @@ button {
     height: 40px;
     border: none;
     border-radius: 8px;
-    background-color: rgb(61, 82, 121);
-    color: white;
+    color: rgb(224, 70, 70);
+    background-color: #dbcb81;
+    font-size: 15px;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: #e7ca45;
+    background-color: #ffffff;
+    color: #e7ca45;
 }
 
 #home{
@@ -58,19 +61,4 @@ button:hover {
     justify-self: start;
 }
 
-#tequila {
-    width: 800px;
-    height: auto;
-    margin: 20px;
-}
 
-#content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: black;
-    color: white;
-}
-
-h2 {
-    align-self: center ;
-}
